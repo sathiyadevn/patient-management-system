@@ -1,0 +1,838 @@
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 186
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe with kafka",
+    "email" : "test_kafka_4@exapmle.com",
+    "address" : "123 main street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-26T212837.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 186
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe with kafka",
+    "email" : "test_kafka_3@exapmle.com",
+    "address" : "123 main street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-26T204411.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 186
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe with kafka",
+    "email" : "test_kafka_2@exapmle.com",
+    "address" : "123 main street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-26T201511.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 186
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe with kafka",
+    "email" : "test_kafka_1@exapmle.com",
+    "address" : "123 main street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-26T201216.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 184
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe with kafka",
+    "email" : "test_kafka@exapmle.com",
+    "address" : "123 main street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-26T201205.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 184
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe with kafka",
+    "email" : "test_kafka@exapmle.com",
+    "address" : "123 main street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-26T201031.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 205
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe with billing account",
+    "email" : "test_billing_account_3@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-22T130202.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 205
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe with billing account",
+    "email" : "test_billing_account_2@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-22T125218.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 205
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe with billing account",
+    "email" : "test_billing_account_1@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-22T125157.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 205
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe with billing account",
+    "email" : "test_billing_account_1@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-22T124854.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 203
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe with billing account",
+    "email" : "test_billing_account@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-22T124737.400.json
+
+###
+
+DELETE http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 203
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe with billing account",
+    "email" : "test_billing_account@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-22T124639.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-22T124542.200.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountGET http://localhost:4000/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-20T084151.200.json
+
+###
+
+GET http://localhost:4000/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-20T084040.200.json
+
+###
+
+DELETE http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 144
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe Updated 1",
+    "email" : "john.doe@example.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09"
+
+}
+
+<> 2025-05-16T220631.200.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 144
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe Updated 1",
+    "email" : "john.doe@example.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09"
+
+}
+
+<> 2025-05-16T215548.400.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe Updated",
+    "email" : "john.doe@example.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09"
+
+}
+
+<> 2025-05-16T215542.400.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 142
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe Updated",
+    "email" : "john.doe@example.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09"
+
+}
+
+<> 2025-05-16T215534.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 170
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe 1",
+    "email" : "test1@exapmle.com",
+    "address" : "123 ain street1",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-16T215328.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe 1",
+    "email" : "test1@exapmle.com",
+    "address" : "123 ain street1",
+    "dateOfBirth" : "1995-09-09"
+}
+
+<> 2025-05-16T215322.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 134
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe 1",
+    "email" : "test1@exapmle.com",
+    "address" : "123 ain street1",
+    "dateOfBirth" : "1995-09-09",
+}
+
+<> 2025-05-16T215302.400.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test1_updated@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09"
+
+}
+
+<> 2025-05-16T215129.200.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test1@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09"
+
+}
+
+<> 2025-05-16T215056.200.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test1@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09"
+
+}
+
+<> 2025-05-16T212509.400.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09"
+
+}
+
+<> 2025-05-16T212502.400.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test1@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09"
+
+}
+
+<> 2025-05-16T212447.400.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test1@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09"
+
+}
+
+<> 2025-05-16T211556.200.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test1@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09"
+
+}
+
+<> 2025-05-16T211045.500.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test1@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09"
+
+}
+
+<> 2025-05-16T211003.500.json
+
+###
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 132
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test1@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+
+}
+
+<> 2025-05-16T210950.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-15T223606.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-15T223603.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-15T223401.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-15T223353.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 167
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"z
+}
+
+<> 2025-05-15T223256.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 167
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"z
+}
+
+<> 2025-05-15T223100.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 167
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"z
+}
+
+<> 2025-05-15T223043.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-15T221128.500.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 145
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@.com",
+    "address" : "",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-15T221120.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 159
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-15T220327.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-15T220319.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "registeredDate" : "2025-05-15"
+}
+
+<> 2025-05-15T212714.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 165
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name" : "John Joe",
+    "email" : "test@exapmle.com",
+    "address" : "123 ain street",
+    "dateOfBirth" : "1995-09-09",
+    "regiteredDate" : "2025-05-15"
+}
+
+<> 2025-05-15T212615.400.json
+
+###
+
+GET http://localhost:4000/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-05-15T121356.200.json
+
+###
+

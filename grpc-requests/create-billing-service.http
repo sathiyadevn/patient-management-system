@@ -1,0 +1,8 @@
+# Testing BillingService -> GRPC Server
+GRPC localhost:9001/BillingService/CreateBillingAccount
+
+{
+    "patientId": "122333",
+    "name": "john joe",
+    "email": "john.joe@email.com"
+}
