@@ -38,46 +38,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Docker.analytics-service.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.billing-service.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.kafka.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.patient-service-db.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.patient-service.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.create-billing-service | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.create-patient | create a new patient entity.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.delete-patient | Delete an entity.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.get-patients | GET request to get all patients.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.update-patient | upadates existing patient entity.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.analytics-service [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.analytics-service [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.billing-service [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.patient-service [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.patient-service [compile].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BillingServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.PatientServiceApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dev43/Dev/Projects/patient-management/analytics-service&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.analytics-service.executor": "Run",
+    "Docker.api-gateway.executor": "Run",
+    "Docker.billing-service.executor": "Run",
+    "Docker.kafka.executor": "Run",
+    "Docker.patient-service-db.executor": "Run",
+    "Docker.patient-service.executor": "Run",
+    "HTTP Request.create-billing-service | #1.executor": "Run",
+    "HTTP Request.create-patient | create a new patient entity.executor": "Run",
+    "HTTP Request.delete-patient | Delete an entity.executor": "Run",
+    "HTTP Request.get-patients | GET request to get all patients.executor": "Run",
+    "HTTP Request.update-patient | upadates existing patient entity.executor": "Run",
+    "Maven.analytics-service [clean].executor": "Run",
+    "Maven.analytics-service [compile].executor": "Run",
+    "Maven.billing-service [compile].executor": "Run",
+    "Maven.patient-service [clean].executor": "Run",
+    "Maven.patient-service [compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.BillingServiceApplication.executor": "Run",
+    "Spring Boot.PatientServiceApplication.executor": "Debug",
+    "last_opened_file_path": "/home/dev43/Dev/Projects/patient-management/api-gateway/Dockerfile",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api-gateway" />
       <recent name="$PROJECT_DIR$/analytics-service" />
       <recent name="$PROJECT_DIR$/analytics-service/src/main/proto" />
       <recent name="$PROJECT_DIR$/patient-service/src/main" />
@@ -90,7 +92,7 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Docker.analytics-service">
+  <component name="RunManager" selected="Docker.api-gateway">
     <configuration name="create-billing-service | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/grpc-requests/create-billing-service.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -109,6 +111,13 @@
     <configuration name="AnalyticsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="analytics-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.analyticsservice.AnalyticsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.apigateway.ApiGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,6 +160,25 @@
           </option>
           <option name="commandLineOptions" value="--network internal " />
           <option name="sourceFilePath" value="analytics-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="api-gateway" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="api-gateway:latest" />
+          <option name="containerName" value="api-gateway" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="4004" />
+                <option name="hostPort" value="4004" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal " />
+          <option name="sourceFilePath" value="api-gateway/Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
@@ -315,14 +343,6 @@
               </DockerEnvVarImpl>
             </list>
           </option>
-          <option name="portBindings">
-            <list>
-              <DockerPortBindingImpl>
-                <option name="containerPort" value="4000" />
-                <option name="hostPort" value="4000" />
-              </DockerPortBindingImpl>
-            </list>
-          </option>
           <option name="commandLineOptions" value="--network internal" />
           <option name="sourceFilePath" value="patient-service/Dockerfile" />
         </settings>
@@ -333,6 +353,7 @@
       <item itemvalue="Docker.billing-service" />
       <item itemvalue="Docker.patient-service" />
       <item itemvalue="Docker.analytics-service" />
+      <item itemvalue="Docker.api-gateway" />
       <item itemvalue="Docker.kafka" />
       <item itemvalue="Docker.patient-service-db" />
       <item itemvalue="HTTP Request.create-billing-service | #1" />
@@ -340,15 +361,16 @@
       <item itemvalue="HTTP Request.delete-patient | Delete an entity" />
       <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
       <item itemvalue="HTTP Request.update-patient | upadates existing patient entity" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.AnalyticsServiceApplication" />
       <item itemvalue="Spring Boot.BillingServiceApplication" />
       <item itemvalue="Spring Boot.PatientServiceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
         <item itemvalue="HTTP Request.create-patient | create a new patient entity" />
         <item itemvalue="HTTP Request.update-patient | upadates existing patient entity" />
-        <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
         <item itemvalue="HTTP Request.delete-patient | Delete an entity" />
         <item itemvalue="HTTP Request.create-billing-service | #1" />
       </list>
