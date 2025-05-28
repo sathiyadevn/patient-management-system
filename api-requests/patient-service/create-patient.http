@@ -1,10 +1,14 @@
 ### create a new patient entity
-POST http://localhost:4000/patients
+# REST CLIENT
+# POST http://localhost:4000/patients
+
+# API-GATEWAY
+POST http://localhost:4004/api/patients
 Content-Type: application/json
 
 {
-    "name" : "John Joe with kafka",
-    "email" : "test_kafka_4@exapmle.com",
+    "name" : "John Joe with api",
+    "email" : "test_api_gateway@exapmle.com",
     "address" : "123 main street",
     "dateOfBirth" : "1995-09-09",
     "registeredDate" : "2025-05-15"

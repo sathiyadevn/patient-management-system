@@ -368,10 +368,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
-        <item itemvalue="HTTP Request.create-patient | create a new patient entity" />
-        <item itemvalue="HTTP Request.update-patient | upadates existing patient entity" />
         <item itemvalue="HTTP Request.delete-patient | Delete an entity" />
+        <item itemvalue="HTTP Request.update-patient | upadates existing patient entity" />
+        <item itemvalue="HTTP Request.create-patient | create a new patient entity" />
+        <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
         <item itemvalue="HTTP Request.create-billing-service | #1" />
       </list>
     </recent_temporary>

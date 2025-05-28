@@ -1,5 +1,9 @@
 ### upadates existing patient entity
-PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+# REST CLIENT
+# PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+
+# API-GATEWAY
+PUT http://localhost:4004/api/patients/123e4567-e89b-12d3-a456-426614174000
 Content-Type: application/json
 
 {

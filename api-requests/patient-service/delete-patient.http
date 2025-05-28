@@ -1,4 +1,8 @@
 ### Delete an entity
-DELETE http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+# REST CLIENT
+# DELETE http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+
+# API-GATEWAY
+DELETE http://localhost:4004/api/patients/76634d9d-083f-4cab-a422-a1c0879a9b15
 
 ###
