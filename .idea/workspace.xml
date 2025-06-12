@@ -16,14 +16,15 @@
         <option value="HTTP Public Environment File" />
         <option value="Exception" />
         <option value="Interface" />
-        <option value="HTTP Request" />
         <option value="Dockerfile" />
         <option value="Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/api-requests/patient-service/create-patient.http" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/auth-service/src/main/java/com/pm/authservice/config/SecurityConfig.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/kafka/KafkaProducer.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="HttpClientSelectedEnvironments">
@@ -38,47 +39,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.analytics-service.executor": "Run",
-    "Docker.api-gateway.executor": "Run",
-    "Docker.billing-service.executor": "Run",
-    "Docker.kafka.executor": "Run",
-    "Docker.patient-service-db.executor": "Run",
-    "Docker.patient-service.executor": "Run",
-    "HTTP Request.create-billing-service | #1.executor": "Run",
-    "HTTP Request.create-patient | create a new patient entity.executor": "Run",
-    "HTTP Request.delete-patient | Delete an entity.executor": "Run",
-    "HTTP Request.get-patients | GET request to get all patients.executor": "Run",
-    "HTTP Request.update-patient | upadates existing patient entity.executor": "Run",
-    "Maven.analytics-service [clean].executor": "Run",
-    "Maven.analytics-service [compile].executor": "Run",
-    "Maven.billing-service [compile].executor": "Run",
-    "Maven.patient-service [clean].executor": "Run",
-    "Maven.patient-service [compile].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.BillingServiceApplication.executor": "Run",
-    "Spring Boot.PatientServiceApplication.executor": "Debug",
-    "last_opened_file_path": "/home/dev43/Dev/Projects/patient-management/api-gateway/Dockerfile",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.analytics-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.api-gateway.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.auth-service-db.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.auth-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.billing-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.kafka.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.patient-service-db.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.patient-service.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.create-billing-service | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.create-patient | create a new patient entity.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.delete-patient | Delete an entity.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.get-patients | GET request to get all patients.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.login | Login request to return token.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.update-patient | upadates existing patient entity.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.analytics-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.analytics-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.billing-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.patient-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.patient-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BillingServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PatientServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dev43/Dev/Projects/patient-management/auth-service/Dockerfile&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth-service" />
       <recent name="$PROJECT_DIR$/api-gateway" />
       <recent name="$PROJECT_DIR$/analytics-service" />
       <recent name="$PROJECT_DIR$/analytics-service/src/main/proto" />
@@ -92,10 +97,7 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Docker.api-gateway">
-    <configuration name="create-billing-service | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/grpc-requests/create-billing-service.http" executionIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Docker.auth-service">
     <configuration name="create-patient | create a new patient entity" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patient-service/create-patient.http" executionIdentifier="create a new patient entity" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -103,6 +105,9 @@
       <method v="2" />
     </configuration>
     <configuration name="get-patients | GET request to get all patients" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" executionIdentifier="GET request to get all patients" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="login | Login request to return token" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/auth-service/login.http" executionIdentifier="Login request to return token" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="update-patient | upadates existing patient entity" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patient-service/update-patient.http" executionIdentifier="upadates existing patient entity" runType="Run single request">
@@ -118,6 +123,13 @@
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.authservice.AuthServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,6 +191,95 @@
           </option>
           <option name="commandLineOptions" value="--network internal " />
           <option name="sourceFilePath" value="api-gateway/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="auth-service-db" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="postgres:latest" />
+          <option name="containerName" value="auth-service-db" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_DB" />
+                <option name="value" value="db" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_PASSWORD" />
+                <option name="value" value="pass" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_USER" />
+                <option name="value" value="admin" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="5432" />
+                <option name="hostPort" value="5001" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="volumeBindings">
+            <list>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/var/lib/postgresql/data" />
+                <option name="hostPath" value="$PROJECT_DIR$/../dbVolumes/auth-service-db" />
+              </DockerVolumeBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="auth-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="auth-service:latest" />
+          <option name="containerName" value="auth-service" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="JWT_SECRET" />
+                <option name="value" value="8618c30ca571bd5052b6e092ea9168062c8fc0c5eef221abcc33d97b8bf9573748fe3eb2cf1f64b2b50d1e0c4b2571a2af3e9a7f6ae12405e062d89290bf1ccbb1bfa1de62238c70bdcbb93b68039b6a7562930f9b620d77ca5a922d6046c987257ca52a73bcbdc652c25256001e82187334e04e8ce3a3d0d5865e43d383a0ba542df9c7d35ec9652aeb9774bb82f0e66e9a5f4f078c44e7e6ed25c371ad226c3f3004c02a1b7a424c2b44c2d75c285f335788afa469afafcf4e7833f4133053f0edc302c2b3d625efc7390e42f633e60a1d3f5c4184bf0ad1a4df908644a917972c69bcfaa5976e8705bae92cd20af57e8dad715b2e096cbe87a60176d6b8c6" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_DATASOURCE_PASSWORD" />
+                <option name="value" value="pass" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_DATASOURCE_URL" />
+                <option name="value" value="jdbc:postgresql://auth-service-db:5432/db" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_DATASOURCE_USERNAME" />
+                <option name="value" value="admin" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_JPA_HIBERNATE_DDL_AUTO" />
+                <option name="value" value="update" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SPRING_SQL_INIT_MODE" />
+                <option name="value" value="always" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="4005" />
+                <option name="hostPort" value="4005" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="auth-service/Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
@@ -350,29 +451,32 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.billing-service" />
-      <item itemvalue="Docker.patient-service" />
       <item itemvalue="Docker.analytics-service" />
       <item itemvalue="Docker.api-gateway" />
+      <item itemvalue="Docker.auth-service-db" />
+      <item itemvalue="Docker.auth-service" />
+      <item itemvalue="Docker.billing-service" />
       <item itemvalue="Docker.kafka" />
       <item itemvalue="Docker.patient-service-db" />
-      <item itemvalue="HTTP Request.create-billing-service | #1" />
+      <item itemvalue="Docker.patient-service" />
       <item itemvalue="HTTP Request.create-patient | create a new patient entity" />
       <item itemvalue="HTTP Request.delete-patient | Delete an entity" />
       <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
+      <item itemvalue="HTTP Request.login | Login request to return token" />
       <item itemvalue="HTTP Request.update-patient | upadates existing patient entity" />
-      <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.AnalyticsServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.AuthServiceApplication" />
       <item itemvalue="Spring Boot.BillingServiceApplication" />
       <item itemvalue="Spring Boot.PatientServiceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.login | Login request to return token" />
         <item itemvalue="HTTP Request.delete-patient | Delete an entity" />
+        <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
         <item itemvalue="HTTP Request.update-patient | upadates existing patient entity" />
         <item itemvalue="HTTP Request.create-patient | create a new patient entity" />
-        <item itemvalue="HTTP Request.get-patients | GET request to get all patients" />
-        <item itemvalue="HTTP Request.create-billing-service | #1" />
       </list>
     </recent_temporary>
   </component>
